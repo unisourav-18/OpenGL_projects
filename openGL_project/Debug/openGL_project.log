@@ -1,0 +1,76 @@
+﻿  glad.c
+  Camera.cpp
+  EBO.cpp
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\theso\source\repos\openGL_project\main.cpp(4,21): error C2039: 'filesystem': is not a member of 'std'
+      C:\Users\theso\source\repos\openGL_project\predefined C++ types (compiler internal)(356,11):
+      see declaration of 'std'
+  
+C:\Users\theso\source\repos\openGL_project\main.cpp(4,21): error C2878: 'filesystem': a namespace or class of this name does not exist
+C:\Users\theso\source\repos\openGL_project\main.cpp(218,27): error C2653: 'fs': is not a class or namespace name
+C:\Users\theso\source\repos\openGL_project\main.cpp(218,31): error C3861: 'current_path': identifier not found
+C:\Users\theso\source\repos\openGL_project\main.cpp(218,46): error C2653: 'fs': is not a class or namespace name
+C:\Users\theso\source\repos\openGL_project\main.cpp(290,30): warning C4018: '<': signed/unsigned mismatch
+  Mesh.cpp
+C:\Users\theso\source\repos\openGL_project\Mesh.cpp(13,9): error C2665: 'EBO::EBO': no overloaded function could convert all the argument types
+      C:\Users\theso\source\repos\openGL_project\EBO.h(20,1):
+      could be 'EBO::EBO(EBO &&)'
+          C:\Users\theso\source\repos\openGL_project\Mesh.cpp(13,9):
+          'EBO::EBO(EBO &&)': cannot convert argument 1 from 'std::vector<GLuint,std::allocator<GLuint>>' to 'EBO &&'
+              C:\Users\theso\source\repos\openGL_project\Mesh.cpp(13,10):
+              Reason: cannot convert from 'std::vector<GLuint,std::allocator<GLuint>>' to 'EBO'
+              C:\Users\theso\source\repos\openGL_project\Mesh.cpp(13,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\theso\source\repos\openGL_project\EBO.h(20,1):
+      or       'EBO::EBO(const EBO &)'
+          C:\Users\theso\source\repos\openGL_project\Mesh.cpp(13,9):
+          'EBO::EBO(const EBO &)': cannot convert argument 1 from 'std::vector<GLuint,std::allocator<GLuint>>' to 'const EBO &'
+              C:\Users\theso\source\repos\openGL_project\Mesh.cpp(13,10):
+              Reason: cannot convert from 'std::vector<GLuint,std::allocator<GLuint>>' to 'const EBO'
+              C:\Users\theso\source\repos\openGL_project\Mesh.cpp(13,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\theso\source\repos\openGL_project\Mesh.cpp(13,9):
+      while trying to match the argument list '(std::vector<GLuint,std::allocator<GLuint>>)'
+  
+C:\Users\theso\source\repos\openGL_project\Mesh.cpp(15,6): error C2039: 'LinkAttrib': is not a member of 'VAO'
+      C:\Users\theso\source\repos\openGL_project\VAO.h(8,7):
+      see declaration of 'VAO'
+  
+C:\Users\theso\source\repos\openGL_project\Mesh.cpp(16,6): error C2039: 'LinkAttrib': is not a member of 'VAO'
+      C:\Users\theso\source\repos\openGL_project\VAO.h(8,7):
+      see declaration of 'VAO'
+  
+C:\Users\theso\source\repos\openGL_project\Mesh.cpp(17,6): error C2039: 'LinkAttrib': is not a member of 'VAO'
+      C:\Users\theso\source\repos\openGL_project\VAO.h(8,7):
+      see declaration of 'VAO'
+  
+C:\Users\theso\source\repos\openGL_project\Mesh.cpp(18,6): error C2039: 'LinkAttrib': is not a member of 'VAO'
+      C:\Users\theso\source\repos\openGL_project\VAO.h(8,7):
+      see declaration of 'VAO'
+  
+  Model.cpp
+C:\Users\theso\source\repos\openGL_project\Model.cpp(289,20): warning C4018: '<': signed/unsigned mismatch
+  shaderClass.cpp
+C:\Users\theso\source\repos\openGL_project\shaderClass.cpp(11,27): warning C4244: 'argument': conversion from 'std::streamoff' to 'const unsigned int', possible loss of data
+  stb.cpp
+  Texture.cpp
+  VAO.cpp
+  VBO.cpp
+C:\Users\theso\source\repos\openGL_project\VBO.cpp(4,6): error C2511: 'VBO::VBO(GLfloat *,GLsizeiptr)': overloaded member function not found in 'VBO'
+      C:\Users\theso\source\repos\openGL_project\VBO.h(19,7):
+      see declaration of 'VBO'
+  
+C:\Users\theso\source\repos\openGL_project\VBO.cpp(6,19): error C2597: illegal reference to non-static member 'VBO::ID'
+      C:\Users\theso\source\repos\openGL_project\VBO.h(23,9):
+      see declaration of 'VBO::ID'
+  
+C:\Users\theso\source\repos\openGL_project\VBO.cpp(6,18): error C2664: 'void (GLsizei,GLuint *)': cannot convert argument 2 from 'GLuint VBO::* ' to 'GLuint *'
+      C:\Users\theso\source\repos\openGL_project\VBO.cpp(6,18):
+      There is no context in which this conversion is possible
+  
+C:\Users\theso\source\repos\openGL_project\VBO.cpp(7,32): error C2597: illegal reference to non-static member 'VBO::ID'
+      C:\Users\theso\source\repos\openGL_project\VBO.h(23,9):
+      see declaration of 'VBO::ID'
+  
+  Generating Code...

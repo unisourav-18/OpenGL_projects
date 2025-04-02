@@ -1,0 +1,9 @@
+﻿  main.cpp
+  shaderClass.cpp
+  VAO.cpp
+C:\Users\theso\source\repos\openGL_project\VAO.cpp(13,63): warning C4244: 'argument': conversion from 'GLsizeiptr' to 'GLsizei', possible loss of data
+  VBO.cpp
+  Generating Code...
+  openGL_project.vcxproj -> C:\Users\theso\source\repos\openGL_project\x64\Debug\openGL_project.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
